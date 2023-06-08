@@ -1,4 +1,7 @@
 # PRL-SIF: A Fault Detection Model with Faulty Label Unknown and Labeling Bias
-Build powerful Positive-Unlabeled (PU) learning method with labeling bias for industrial fault detection problem.
+This is a program of powerful Positive-Unlabeled (PU) learning method with labeling bias for industrial fault detection problem proposed by Min Qian, Hui Wu and Yan-Fu Li.
+
+In practical industrial applications, the need for a large number of accurately labeled training samples is a significant challenge for fault detection tasks. However, labeling all training samples is expensive and prone to labeling errors, especially for early fault detection of wind turbine blades. This paper proposes a labeling bias (LB) hypothesis. Assuming the labeler only needs to label parts of normal samples that are easy to judge, we design a probability ratio least-squares importance fitting (PRL-SIF) method based on variable homogeneity. Unlike other state-of-the-art positive unlabeled (PU) learning methods, PRL-SIF does not require knowledge of the class priors to achieve training. Furthermore, to better handle the multi-dimensional time-series data of wind turbines, we provide a data preprocessing method based on functional analysis to achieve time series feature extraction and dimensionality reduction. The effectiveness and robustness of the proposed method are verified on 23 realworld wind turbine datasets. Experimental results show that the
+proposed method can achieve nearly 90% accuracy while only labeling 20% of normal samples.
 
 For more details, please refer to: M. Qian, H. Wu and Y. -F. Li, "Wind Turbine Blade Early Fault Detection With Faulty Label Unknown and Labeling Bias," in IEEE Transactions on Industrial Informatics, 2022, doi: 10.1109/TII.2022.3216816.
